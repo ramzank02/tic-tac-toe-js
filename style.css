@@ -90,3 +90,10 @@ color: black;
     align-items: end;
     justify-content: end;
 }
+
+
+@media screen and (max-width:1080px) {
+    #msg{
+        font-size: 20px;
+    }
+}
