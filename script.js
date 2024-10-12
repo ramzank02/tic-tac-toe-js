@@ -85,10 +85,12 @@ button.addEventListener('click', () => {
         currMode = "dark"
          document.body.classList.add("dark")
          document.body.classList.remove("light")
+          button.innerText = "Light Mode"
       } else{
         currMode = "light"
          document.body.classList.add("light")
          document.body.classList.remove("dark")
+          button.innerText = "Dark Mode"
       }
       console.log(currMode);
       
